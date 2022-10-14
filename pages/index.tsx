@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
+import { Counter } from "../features/Counter";
+import { Todo } from "../features/Todo";
 const Home: NextPage = () => {
   return (
     <div className="text-xs">
@@ -10,6 +11,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-blue-500 text-7xl text-white">HAllo</div>
+      <Counter />
+      <Todo />
     </div>
   );
 };
