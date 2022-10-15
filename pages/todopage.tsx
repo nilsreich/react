@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { useImmer } from "use-immer";
 import { useEffect, useState } from "react";
 import { Cross1Icon } from "@radix-ui/react-icons";
-import { AsyncLocalStorage } from "async_hooks";
 
 type todosProps = {
   id: number;
