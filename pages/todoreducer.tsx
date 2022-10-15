@@ -53,7 +53,7 @@ const reducer = (draft: todo, action: ActionsType) => {
   }
 };
 
-const todoreducer: NextPage = () => {
+const Todoreducer: NextPage = () => {
   const [list, dispatch] = useImmerReducer(reducer, [
     {
       id: 0,
@@ -131,4 +131,4 @@ const todoreducer: NextPage = () => {
   );
 };
 
-export default todoreducer;
+export default Todoreducer;
