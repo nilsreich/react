@@ -46,7 +46,7 @@ interface Props {
 
 export const CounterProvider = ({ children }: Props) => {
   useEffect(() => {
-    let init = "0";
+    let init = null;
     if (localStorage.getItem("value") != null) {
       init = localStorage.getItem("value");
     }
